@@ -4,7 +4,8 @@
   "description": "Piano with electron",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager ./ Piano --overwrite --icon=src/assets/icons/icon.ico"
   },
   "author": "Jadison Lopes",
   "license": "ISC",
